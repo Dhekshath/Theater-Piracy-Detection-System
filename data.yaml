@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['phone']
+
+roboflow:
+  workspace: mahmoud-upiln
+  project: phone-o9hze
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mahmoud-upiln/phone-o9hze/dataset/1
